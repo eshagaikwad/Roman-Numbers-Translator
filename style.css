@@ -1,0 +1,43 @@
+:root{
+    background-color:#B45309 ;
+}
+
+
+.header{
+    text-align: center;
+    width: auto;
+    background-color: #FDE68A;
+    
+}
+textarea{
+    border: 1px solid #FDE68A;
+    fill: #FDE68A;
+    width: 80%;
+    height: 20vh;
+    display: block;
+    margin: 2rem;
+    padding: 2rem 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+    background-color: #FDE68A;
+}
+#output
+{fill: #FDE68A;
+   border: 1px solid #FDE68A;
+   width: 80%;
+    height: 20vh;
+    margin: 2rem;
+    padding: 2rem 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    background-color: #FDE68A;
+
+
+}
+.button{
+    padding: 1rem 4rem;
+    border: brown;
+    background-color: #FDE68A;
+    
+}
