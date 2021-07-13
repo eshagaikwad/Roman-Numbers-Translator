@@ -1,17 +1,5 @@
-:root{
-    background-color:#B45309 ;
-}
-
-
-.header{
-    text-align: center;
-    width: auto;
-    background-color: #FDE68A;
-    
-}
 textarea{
-    border: 1px solid #FDE68A;
-    fill: #FDE68A;
+    border: 1px solid white;
     width: 80%;
     height: 20vh;
     display: block;
@@ -20,24 +8,78 @@ textarea{
     padding-left: 0rem;
     padding-right: 0rem;
     text-align: center;
-    background-color: #FDE68A;
+    border-radius: 2rem;
 }
 #output
-{fill: #FDE68A;
-   border: 1px solid #FDE68A;
+{
+   border: 1px solid white;
    width: 80%;
     height: 20vh;
     margin: 2rem;
     padding: 2rem 0rem;
     padding-left: 0rem;
     padding-right: 0rem;
-    background-color: #FDE68A;
-
+    border-radius: 2rem;
+    text-align: center;
+}
 
 }
-.button{
-    padding: 1rem 4rem;
-    border: brown;
-    background-color: #FDE68A;
+.navigation{
+    background-color:black;
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius:1rem ;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font:bolder;
+    text-align: center;
+
+}
+  .img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    float: inline-start;
+    align:center;
+    margin-left: auto;  
+margin-right: auto; 
     
+
+  }
+  .button {
+   background-color:white ;
+   padding:2rem;
+   text-align: center;
+  
+    }
+
+  .div{
+      text-align: center;
+  }
+
+.footer{
+    background-color: white;
+    padding: 4rem 0rem;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius:1rem ;
+    margin: auto;
+}
+.footer .link{
+    color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
