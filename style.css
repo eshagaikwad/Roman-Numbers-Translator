@@ -1,30 +1,31 @@
 textarea{
-    border: 1px solid white;
-    width: 80%;
-    height: 20vh;
+    border: 1px solid ;
+    width: 50%;
     display: block;
     margin: auto;
-
     padding-left: 0rem;
     padding-right: 0rem;
     text-align: center;
     border-radius: 2rem;
     padding: 2rem 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     
 }
 body{
-    max-width: auto;
+    width: 100%;
+    position: relative;
     background-image: url("/images/ROMAN.jpg");
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
 }
 #output
 { margin: auto;
    border: 1px solid white;
-   width: 80%;
-    height: 20vh;
-    color: white;
-    
-    padding: 2rem 2rem;
-    padding-left: 0rem;
+   width: 50%;
+   color: white;
+   padding: 2rem 2rem;
+   padding-left: 0rem;
     padding-right: 0rem;
     border-radius: 2rem;
     text-align: center;
@@ -47,64 +48,31 @@ body{
     font-weight: bold;
     font:bolder;
     text-align: center;
-
+     background-color: white;
+     color: black;
+     padding: 2rem;
+     margin-top: 0rem
 }
   .img{
     width: 300px;
     height: 300px;
     display: block;
     float: inline-start;
-    align:center;
     margin-left: auto;  
-margin-right: auto; 
+    margin-right: auto; 
   }
-    
-
   
-  .button {
-   background-color:white ;
-   padding:2rem;
-   text-align: center;
-   text-align: right;
   
-    }
     #btn-translate{
         text-align: right;
-       padding: 2rem 4rem;
-       border-bottom-left-radius: 4rem;
-       border-top-right-radius:4rem ;
+       padding: 1rem 1rem;
+       margin-top: 0.5rem;
+       margin-bottom: 1rem;
+       border-radius: 2rem;
        
     }
 
   .div{
-      text-align: center;
-      
+      text-align: center;    
   }
 
-.footer{
-    background-color: white;
-    padding: 4rem 0rem;
-    text-align: center;
-    color: white;
-    border-bottom-left-radius: 1rem;
-    border-top-right-radius:1rem ;
-    margin: auto;
-    padding: auto; 
-}
-.footer .link{
-    color: white;
-}
-.footer .footer-header{
-    font-weight: bold;
-    font-size: large;
-    color: black;
-    
-}
-.footer .links{
-    color: black;
-    text-decoration: none;
-    
-}
-.footer ul{
-    padding-inline-start: 0px;
-}
